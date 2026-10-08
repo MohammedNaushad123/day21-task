@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: burlywood;
+        margin: 0;
+      }
+      .main {
+        display: grid;
+        flex-wrap: nowrap;
+        justify-content: center;
+        row-gap: 30px;
+        align-items: center;
+        grid-template-columns: repeat(4, 350px);
+        margin-top: 20px;
+        column-gap: 30px;
+      }
+      .parent {
+        background-color: #000;
+        height: 300px;
+        width: 350px;
+        border-radius: 20px;
+      }
+      .child {
+        height: 200px;
+        width: 200px;
+        border: 2px solid black;
+        background-color: black;
+        color: red;
+        text-align: center;
+        line-height: 270px;
+        box-shadow: 20px 10px 5px 5px white;
+        border-radius: 50%;
+        margin-inline: 100px;
+      }
+      .btn1 {
+        height: 200px;
+        width: 200px;
+        border: 50px solid black;
+        margin: 10px;
+        background-color: black;
+        color: yellow;
+        border-radius: 50%;
+        box-shadow: 70px 5px 10px 10px white;
+        text-align: center;
+        line-height: 200px;
+        border: 2px solid black;
+      }
+      .btn {
+        background-color: #000;
+        height: 300px;
+        width: 350px;
+        border-radius: 20px;
+        justify-content: center;
+      }
+      #contain1 {
+        background-color: #000;
+        height: 300px;
+        width: 350px;
+        margin: 10px;
+        border-radius: 20px;
+      }
+      #contain {
+        height: 200px;
+        width: 200px;
+        background-color: black;
+        color: red;
+        border-radius: 50%;
+        box-shadow: 50px 20px 10px 5px white inset;
+        text-align: center;
+        line-height: 450px;
+        font-size: large;
+        margin-inline: 100px;
+        border: 2px solid white;
+      }
+      .red {
+        background-color: #000;
+        height: 300px;
+        width: 350px;
+        border-radius: 40px;
+      }
+      .blue {
+        height: 200px;
+        width: 200px;
+        background-color: #000;
+        color: red;
+        box-shadow: 4px 3px 10px 2px white;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 200px;
+        margin-inline: 70px;
+        border: 2px solid black;
+      }
+      .box2 {
+        height: 200px;
+        width: 200px;
+        background-color: #000;
+        margin: 10px;
+        border-radius: 50%;
+        box-shadow: 10px 5px 10px 10px white;
+        color: yellow;
+        text-align: center;
+        line-height: 200px;
+        border: 2px solid black;
+        margin-inline: 50px;
+      }
+      .box1 {
+        height: 300px;
+        width: 350px;
+        background-color: #000;
+        border-radius: 20px;
+      }
+      .bot {
+        height: 300px;
+        width: 350px;
+        background-color: #000;
+        border-radius: 20px;
+      }
+      .top {
+        height: 200px;
+        width: 200px;
+        background-color: #000;
+        margin: 10px;
+        box-shadow: 60px 10px 10px 10px white inset;
+        border-radius: 50%;
+        border: 2px solid white;
+        text-align: center;
+        line-height: 450px;
+        color: red;
+        margin-inline: 50px;
+      }
+      .border1 {
+        height: 300px;
+        width: 350px;
+        background-color: #000;
+        margin: 10px;
+        border-radius: 20px;
+      }
+      .border2 {
+        height: 200px;
+        width: 200px;
+        background-color: #000;
+        color: yellow;
+        border-radius: 50%;
+        box-shadow: 10px 10px 10px 10px white inset;
+        margin-inline: 50px;
+        text-align: center;
+        line-height: 450px;
+      }
+      .moon1 {
+        height: 300px;
+        width: 350px;
+        background-color: #000;
+        border-radius: 20px;
+      }
+      .moon2 {
+        height: 200px;
+        width: 200px;
+        background-color: #ffff;
+        color: blue;
+        border: 2px solid black;
+        border-radius: 50%;
+        box-shadow: 5px 3px 5px 5px white;
+        margin-inline: 50px;
+        text-align: center;
+        line-height: 200px;
+      }
+      h1 {
+        color: red;
+        font-family: algerian;
+        margin: 0;
+        padding: 10px 0;
+        text-align: center;
+      }
+      marquee {
+        background-color: chartreuse;
+        font-size: large;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      <marquee>OFF MOON DAY TO FULL MOON DAY</marquee>
+    </h1>
+    <div class="main">
+      <div class="parent">
+        <div class="child">WanningGibbous</div>
+      </div>
+      <div class="btn">
+        <div class="btn1">Last Quarter</div>
+      </div>
+
+      <div id="contain1">
+        <div id="contain">wanningcrescent</div>
+      </div>
+
+      <div class="red">
+        <div class="blue">New Moon</div>
+      </div>
+
+      <div class="box1">
+        <div class="box2">Waxing crescent</div>
+      </div>
+
+      <div class="bot">
+        <div class="top">First Quarter</div>
+      </div>
+
+      <div class="border1">
+        <div class="border2">Waxing Gibbous</div>
+      </div>
+
+      <div class="moon1">
+        <div class="moon2">Full Moon</div>
+      </div>
+    </div>
+
+    <marquee style="width: 50%; margin: auto; display: block">
+      THANK YOU
+    </marquee>
+  </body>
+</html>
